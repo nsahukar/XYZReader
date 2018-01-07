@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="card_image_height">192dp</dimen>
+    <dimen name="detail_image_height">384dp</dimen>
+    <dimen name="default_title_size">20sp</dimen>
+    <dimen name="card_title_size">20sp</dimen>
+    <dimen name="card_subheading_size">14sp</dimen>
+    <dimen name="detail_subheading_size">14sp</dimen>
+</resources>

@@ -1,0 +1,1 @@
+An android app which provides articles for reading. It showcases Material Design for Android and Reactive Clean Architecture with Android Architecture Components.

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Base</string>
+    <string name="blank">&#160;</string>
+    <!-- Error Messages -->
+    <string name="err_network_unavailable">No Internet connection. Make sure that Wi-Fi or cellular mobile data is turned on, then try again.</string>
+</resources>

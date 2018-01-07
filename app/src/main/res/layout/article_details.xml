@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColorLight"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:fontFamily="@font/encode_sans_semi_condensed_regular"
+            android:text="@string/text_by"
+            android:textColor="@color/textColorBlackLight"
+            android:textSize="@dimen/detail_subheading_size" />
+
+        <TextView
+            android:id="@+id/article_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/encode_sans_semi_condensed_medium"
+            android:textColor="@color/textColorBlackDark"
+            android:textSize="@dimen/detail_subheading_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginStart="@dimen/default_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:fontFamily="@font/encode_sans_semi_condensed_regular"
+            android:text="@string/text_on"
+            android:textColor="@color/textColorBlackLight"
+            android:textSize="@dimen/detail_subheading_size" />
+
+        <TextView
+            android:id="@+id/article_published_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/encode_sans_semi_condensed_medium"
+            android:textColor="@color/textColorBlackDark"
+            android:textSize="@dimen/detail_subheading_size" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/article_photo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_image_height"
+        android:background="@color/backgroundColor"
+        android:contentDescription="@string/article_thumbnail_content_description"
+        android:scaleType="centerCrop" />
+
+    <WebView
+        android:id="@+id/article_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin" />
+</LinearLayout>

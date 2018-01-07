@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Article</string>
+    <string name="btn_title_retry">Retry</string>
+    <string name="article_thumbnail_content_description">Article Thumbnail</string>
+    <string name="article_photo_content_description">Article Photo</string>
+    <string name="text_by">by</string>
+    <string name="text_on">on</string>
+    <string name="action_share">Share</string>
+</resources>
